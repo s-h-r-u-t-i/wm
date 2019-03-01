@@ -1,0 +1,24 @@
+{
+  "name": "npmapp",
+  "version": "1.0.0",
+  "description": "Dependency test resolution",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js",
+    "build": "echo 'Successfull'"
+  },
+  "keywords": [
+    "npm",
+    "dependency"
+  ],
+  "author": "Vimala Sirvi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "fresh": "^0.1.0",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {
+    "cowsay": "^1.4.0"
+  }
+}
